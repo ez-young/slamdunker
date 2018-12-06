@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.liuzm.slamdunker</groupId>
+        <artifactId>slamdunker-master</artifactId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.liuzm.slamdunker.common</groupId>
+    <artifactId>slamdunker-common</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>slamdunker-common-base</module>
+        <module>slamdunker-common-util</module>
+        <module>slamdunker-common-config</module>
+        <module>slamdunker-common-core</module>
+        <module>slamdunker-security-app</module>
+        <module>slamdunker-security-core</module>
+        <module>slamdunker-security-feign</module>
+        <module>slamdunker-common-zk</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
